@@ -158,6 +158,7 @@ img {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .feature-item {
@@ -186,4 +187,143 @@ img {
   font-size: 16px;
   line-height: 28px;
 }
+/*===ABOUT===*/
+.about-bg {
+  background: linear-gradient(32.57deg, #DBE7FA 0%, #F2F6FD 100%);
+}
 
+.about {
+  padding: 100px 15px;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-img  img{
+  width: 700px;
+}
+
+.about-info h4 {
+  color: #060C3A;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+}
+
+.about-info p {
+  color: #8C8E9E;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 60px;
+  max-width: 370px;
+}
+
+.about-info a {
+  padding: 20px 50px;
+  background: linear-gradient(201.04deg, #FFB88A 0%, #F08899 100%);
+  border-radius: 30px;
+  color: #fff;
+  box-shadow: 0px 20px 70px rgba(6, 12, 58, 0.4);
+  font-weight: 600;
+}
+/*===ABOUT2===*/
+
+
+.about-info2 h4 {
+  color: #060C3A;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+}
+
+.about-info2 p {
+  color: #8C8E9E;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 60px;
+  max-width: 370px;
+}
+
+.about-info2 a {
+  padding: 20px 50px;
+  background: linear-gradient(199.44deg, #04BEFE 0%, #4481EB 100%);
+  box-shadow: 0px 30px 80px rgba(6, 12, 58, 0.4);
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+/*===REDE SOCIAL===*/
+.rede-social-bg {
+  background-color: #fff;
+  padding: 0 15px;
+}
+
+.rede-social {
+  display: flex;
+  max-width: 900px;
+  padding: 70px 80px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 50px 100px rgba(6, 12, 58, 0.2);
+  position: relative;
+  border-radius: 30px;
+  top: 90px;
+  flex-wrap: wrap;
+}
+
+.rede-social h3 {
+  color: #060C3A;;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 47px;
+  letter-spacing: -0.5px;
+}
+
+.rede-social p {
+  color: #8C8E9E;
+  font-size: 19px;
+  max-width: 373px;
+}
+
+.rede-social img {
+  height: 40px;
+  width: auto;
+}
+/*===FOOTER===*/
+.footer-bg {
+  background: linear-gradient(24.26deg, #DBE7FA 0%, #F2F6FD 100%);
+}
+.footer {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 150px;
+  justify-content: space-between;
+}
+
+footer .menu p {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 4px;
+  color: #060C3A;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+footer .menu ul li {
+  font-size: 16px;
+  line-height: 19px;
+  color: #8C8E9E;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+footer .menu ul li a {
+  color: #8C8E9E;
+}
