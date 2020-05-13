@@ -2,7 +2,50 @@
 $primary-color: #060C3A;
 $secondary-color: #04BEFE;
 $body-color: #8C8E9E;
+$neutral-color: #ffffff;
 
 
 // Fontes 
 $font-01: 'Roboto', sans-serif;
+
+// Mixins
+@mixin box-shadow {
+  -webkit-box-shadow: 0px 20px 70px rgba(6, 12, 58, 0.4);
+  -moz-box-shadow: 0px 20px 70px rgba(6, 12, 58, 0.4);
+  box-shadow: 0px 20px 70px rgba(6, 12, 58, 0.4);
+}
+
+@mixin title-1 {
+  font-size: 60px;
+  color: #060C3A;
+  margin-bottom: 30px;
+}
+
+@mixin title-2 {
+
+}
+
+@mixin title-3 {
+  color: #060C3A;;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 47px;
+  letter-spacing: -0.5px;
+}
+
+@mixin title-4 {
+  font-size: 20px;
+  color: #8C8E9E;
+  max-width: 379px;
+  line-height: 36px;
+  margin-bottom: 36px;
+}
+
+@mixin title-4-bold {
+  font-size: 20px;
+  font-weight: bold;
+  color: #8C8E9E;
+  max-width: 379px;
+  line-height: 36px;
+  margin-bottom: 36px;
+}

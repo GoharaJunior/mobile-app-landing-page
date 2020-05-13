@@ -16,23 +16,35 @@
   border-radius: 30px;
   top: -80px;
   flex-wrap: wrap;
+  @include d(s) {
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 30px;
+  }
 }
 
 .info h3 {
-  color: #060C3A;;
-  font-weight: normal;
-  font-size: 35px;
-  line-height: 47px;
-  letter-spacing: -0.5px;
+  @include title-3;
+  @include d(s) {
+    margin: 0;
+    padding-bottom: 5px;
+  }
 }
 
 .info p {
-  color: #8C8E9E;
-  font-size: 19px;
-  max-width: 373px;
+  text-align: center;
+  color: $body-color;
+  @include title-4;
+  @include d(s) {
+    margin: 0;
+  }
 }
 
 .info img {
   height: 55px;
   width: auto;
+  @include d(s) {
+    order: -1;
+    margin-bottom: 10px;
+  }
 }

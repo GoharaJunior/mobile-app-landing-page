@@ -3,12 +3,18 @@
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
+  @include d(s) {
+    flex-direction: column;
+  }
 }
 
 .feature-item {
   padding: 50px;
   text-align: center;
-
+  @include d(s) {
+    padding: 0;
+    padding-bottom: 15px;
+  }
 }
 
 .feature-item h4 {
@@ -19,15 +25,25 @@
   letter-spacing: -0.4px;
   margin-bottom: 50px;
   text-align: center;
+  @include d(s) {
+    margin-bottom: 15px;
+  }
 }
 
 .feature-item img {
   margin: 0 auto;
   margin-bottom: 50px;
+  @include d(s) {
+    margin-bottom: 15px;
+  }
 }
 
 .feature-item p {
   color: #8C8E9E;
   font-size: 16px;
   line-height: 28px;
+  @include d(s) {
+    max-width: 400px;
+    margin: 0 auto;
+  }
 }

@@ -9,10 +9,17 @@
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
+  @include d(s) {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .about-img  img{
   width: 700px;
+  @include d(s) {
+    width: 300px;
+  }
 }
 
 .about-info h4 {
@@ -64,6 +71,12 @@
   border-radius: 30px;
   color: #fff;
   font-weight: 600;
+}
+
+.about-img {
+  @include d(s) {
+    order: -1;
+  }
 }
 /*===REDE SOCIAL===*/
 .rede-social-bg {

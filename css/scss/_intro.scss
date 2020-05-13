@@ -10,21 +10,29 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  @include d(s) {
+    flex-direction: column;
+    padding: 15px 15px;
+    text-align: center;
+  }
+  // @include d(m) {
+  //   font-size: 30px;
+  // }
 }
 
 .intro h1 {
-  font-size: 60px;
-  color: #060C3A;
-  margin-bottom: 30px;
+  @include title-1;
+  @include d(s) {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
 }
 
 .intro p {
-  font-size: 20px;
-  font-weight: bold;
-  color: #8C8E9E;
-  max-width: 379px;
-  line-height: 36px;
-  margin-bottom: 36px;
+  @include title-4-bold;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 .intro a {
@@ -37,9 +45,14 @@
 }
 
 .intro span {
-  color: #04BEFE;
+  color: $secondary-color;
 }
 
 .intro-img {
   width: 600px;
+  @include d(s) {
+    width: 450px;
+    margin: 0 auto;
+    padding: 40px 0px;
+  }
 }
