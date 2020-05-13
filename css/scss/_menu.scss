@@ -1,0 +1,43 @@
+.menu-bg {
+  background: linear-gradient(36.1deg, #DBE7FA 0%, #F2F6FD 100%);
+}
+
+.menu {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu img {
+  width: 50px;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a {
+  font-size: 16px;
+  line-height: 19px;
+  color: #8C8E9E;
+  padding: 0px 32px;
+  transition: 150ms;
+}
+
+.menu-nav a:hover {
+  color: #060C3A ;
+}
+
+.btn-menu a {
+  padding: 20px 50px;
+  background: linear-gradient(201.04deg, #FFB88A 0%, #F08899 100%);
+  border-radius: 30px;
+  color: #fff;
+  box-shadow: 0px 20px 70px rgba(6, 12, 58, 0.4);
+  font-weight: 600;
+}

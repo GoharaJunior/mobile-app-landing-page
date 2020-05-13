@@ -1,0 +1,31 @@
+.footer-bg {
+  background: linear-gradient(24.26deg, #DBE7FA 0%, #F2F6FD 100%);
+}
+.footer {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 150px;
+  justify-content: space-between;
+}
+
+footer .menu p {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 4px;
+  color: #060C3A;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+footer .menu ul li {
+  font-size: 16px;
+  line-height: 19px;
+  color: #8C8E9E;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+footer .menu ul li a {
+  color: #8C8E9E;
+}

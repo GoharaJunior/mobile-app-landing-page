@@ -1,0 +1,45 @@
+.intro-bg {
+  height: 800px;
+  background: linear-gradient(36.1deg, #DBE7FA 0%, #F2F6FD 100%);
+  
+}
+
+.intro {
+  padding: 60px 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro h1 {
+  font-size: 60px;
+  color: #060C3A;
+  margin-bottom: 30px;
+}
+
+.intro p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #8C8E9E;
+  max-width: 379px;
+  line-height: 36px;
+  margin-bottom: 36px;
+}
+
+.intro a {
+  padding: 20px 50px;
+  background: linear-gradient(199.44deg, #04BEFE 0%, #4481EB 100%);
+  box-shadow: 0px 30px 80px rgba(6, 12, 58, 0.4);
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.intro span {
+  color: #04BEFE;
+}
+
+.intro-img {
+  width: 600px;
+}

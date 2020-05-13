@@ -1,0 +1,33 @@
+.feature {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.feature-item {
+  padding: 50px;
+  text-align: center;
+
+}
+
+.feature-item h4 {
+  color: #060C3A;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.feature-item img {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.feature-item p {
+  color: #8C8E9E;
+  font-size: 16px;
+  line-height: 28px;
+}
