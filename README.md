@@ -21,7 +21,7 @@
 <div>
   <h2 align="center">Desktop</h2>
   <h1 align="center">
-    <img width="400px"src="https://user-images.githubusercontent.com/57417305/81887530-b181af80-9575-11ea-9037-5cf6d3ad65cb.png" />
+    <img src="https://user-images.githubusercontent.com/57417305/81887530-b181af80-9575-11ea-9037-5cf6d3ad65cb.png" />
   </h2>
 </div>
 
